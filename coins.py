@@ -36,6 +36,6 @@ print("The coins are",
       num_of_dimes,
       "dimes," if num_of_dimes > 1 else "dimes,",
       num_of_nickels,
-      "nickels," if num_of_nickels > 1 else "nickels,",
+      "nickels and" if num_of_nickels > 1 else "nickels and",
       num_of_pennies,
       "pennies" if num_of_pennies > 1 else "pennies")
