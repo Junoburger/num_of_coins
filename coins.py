@@ -32,10 +32,10 @@ remainder_for_pennies = round(newDividend(remainder_for_nickels, penny))
 
 print("The coins are",
       num_of_quarters,
-      "quarters," if num_of_quarters > 1 else "quarter,",
+      "quarters," if num_of_quarters > 1 else "quarters,",
       num_of_dimes,
-      "dimes," if num_of_dimes > 1 else "dime,",
+      "dimes," if num_of_dimes > 1 else "dimes,",
       num_of_nickels,
-      "nickels," if num_of_nickels > 1 else "nickel,",
+      "nickels," if num_of_nickels > 1 else "nickels,",
       num_of_pennies,
-      "pennies," if num_of_pennies > 1 else "penny,")
+      "pennies," if num_of_pennies > 1 else "pennies,")
