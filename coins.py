@@ -38,4 +38,4 @@ print("The coins are",
       num_of_nickels,
       "nickels," if num_of_nickels > 1 else "nickels,",
       num_of_pennies,
-      "pennies," if num_of_pennies > 1 else "pennies,")
+      "pennies" if num_of_pennies > 1 else "pennies")
